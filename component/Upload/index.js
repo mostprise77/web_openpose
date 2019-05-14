@@ -124,7 +124,7 @@ export default class ImageUpload extends React.Component {
     return (
       <div className={this.props.onlyView ? styles.onlyView : ''}>
         <Upload
-          action="https://mostprise.com/oss1/upload.php"
+          action="http://up.mostprise.com/oss1/upload.php"
           listType="picture-card"
           fileList={fileList}
           onPreview={this.handlePreview}
